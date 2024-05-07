@@ -1,0 +1,23 @@
+.btn.dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: large;
+    padding: 0px 5px;
+    margin: 0px 0px 20px 0;
+
+    &::after {
+        display: none;
+        background-color: transparent;
+    }
+
+    &:hover {
+        background-color: transparent;
+        color: black;
+    }
+
+    &:checked {
+        background-color: transparent;
+        color: black;
+    }
+}

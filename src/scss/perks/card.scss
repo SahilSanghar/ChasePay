@@ -1,0 +1,32 @@
+.card {
+    height: 420px;
+    width: 360px;
+    text-align: start;
+    
+    .card-header {
+        height: 120px;
+        width: 100%;
+        padding-top: 18px;
+        color: white;
+        background-color: blue;
+    }
+
+    .card-body {
+        height: 280px;
+        width: 100%;
+
+        .card-title {
+            height: 50px;
+            padding-top: 5px;
+        }
+
+        .card-text {
+            height: 110px;
+            padding-top: 15px;
+        }
+
+        a {
+            margin-top: 15px;
+        }
+    }
+}
