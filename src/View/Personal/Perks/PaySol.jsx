@@ -7,7 +7,7 @@ return (
                 Payment <br />
                 Solutions
             </h5>
-        <div className="card-body">
+        <div className="card-body border border-dark-subtle">
             <h5 className="card-title">
                 Credit card processing
             </h5>

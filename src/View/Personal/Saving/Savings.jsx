@@ -21,7 +21,7 @@ return (
             
         </div>
     </div>
-    <hr className='mt-5 pt-2'/>
+    <hr className='hr'/>
 </div>
     
 )

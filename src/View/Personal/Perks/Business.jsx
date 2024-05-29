@@ -9,7 +9,7 @@ return (
                 Complete <br />
                 Checking
             </h5>
-        <div className="card-body">
+        <div className="card-body border border-dark-subtle">
             <h5 className="card-title">
                 $300 for new buisness <br />
                 checking customers 
