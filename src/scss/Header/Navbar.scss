@@ -1,23 +1,41 @@
-.btn.dropdown-toggle {
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: large;
-    padding: 0px 5px;
-    margin: 0px 0px 20px 0;
+.NavHead {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    border-bottom-color: #0B6EFD !important;
+}
 
-    &::after {
-        display: none;
-        background-color: transparent;
-    }
+.dropdown {
+    display: inline-block;
+    margin-left: 0 !important;
+    padding: 0 !important;
+
+    .dropdown-toggle {
+    background-color: #f8f9fa;
+    color: #343a40 !important;
+    border: 1px solid #ced4da;
+    // text-decoration: 2px solid underline blue !important;
+    // text-decoration: none !important;
+    transition: text-decoration 0.3s ease;
 
     &:hover {
-        background-color: transparent;
-        color: black;
+        background-color: #e9ecef;
+        color: #343a40;
+    }
     }
 
-    &:checked {
-        background-color: transparent;
-        color: black;
+    .dropdown-menu {
+    border: 1px solid #ced4da;
+    border-top: none;
+    margin: 0 !important;
+
+    .dropdown-item {
+        color: #343a40;
+
+        &:hover {
+        background-color: #f8f9fa;
+        color: #343a40;
+        }
+    }
     }
 }

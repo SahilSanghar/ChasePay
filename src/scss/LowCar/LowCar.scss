@@ -1,0 +1,30 @@
+.LCMain {
+    height: 400px;
+    background-color: #FAF8F2;
+    padding: 105px 260px;
+
+    .LCHeading {
+        font-size: 40px;
+        font-weight: 400;
+
+        .LCSpan {
+            color: #936846;
+        }
+    }
+
+    .LCDetail {
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+
+    .LCBtn {
+        height: 40px;
+        color: white;
+        background-color: #1A7B99;
+        margin-top: 40px;
+        padding: 8px 60px;
+        border: none;
+        border-radius: 3px;
+    }
+}

@@ -1,0 +1,35 @@
+.grid {
+    display: flex;
+    justify-content: center;
+    
+    .content {
+        display: flex;
+        align-items: start;
+
+        .CorpImg {
+            height: 560px;
+            width: 420px;
+            object-fit: cover;
+            opacity: 1 !important;
+            margin: 0 !important;
+        }
+        
+        .text {
+            margin-left: 150px;
+        }
+
+        .CorpH {
+            color: darkgoldenrod;
+        }
+
+        .CBtn {
+            height: 40px;
+            width: 220px;
+            color: white;
+            background-color: darkcyan;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 0;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.network {
+    margin: 150px 0 100px 250px !important;
+
+    .NetTitle {
+        font-size: 28px;
+
+        .NetSpan {
+            color: #936846;
+        }
+    }
+
+    .NetText {
+        font-size: 14px;
+    }
+
+    .NetBtn {
+        color: white;
+        background-color: #1A7B99;
+        margin-top: 80px;
+        padding: 8px 60px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .NetImg {
+        height: 600px;
+        width: 600px;
+        opacity: 1 !important;
+        object-fit: cover;
+        margin-left: 100px;
+    }
+}

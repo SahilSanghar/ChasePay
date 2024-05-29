@@ -1,0 +1,88 @@
+.carousel-container {
+    width: 99vw;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative; /* Set position to relative */
+
+    .building {
+        width: 400px;
+        height: 700px;
+        opacity: 1;
+        position: absolute; /* Set position to absolute */
+        top: 0; /* Position at the top of its container */
+        left: 0; /* Position at the left of its container */
+        z-index: 1;
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        z-index: 2; /* Ensure the content is above the building image */
+    }
+
+    .main {
+        border: none;
+        margin: 20px 0 0 250px;
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+
+            span {
+                color: darkgoldenrod;
+            }
+        }
+    }
+
+    .carousel-dots {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &.active {
+                background-color: darkgoldenrod;
+            }
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        color: #333;
+        cursor: pointer;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        z-index: 3; /* Ensure arrows are above other content */
+
+        &-left {
+            left: 10px;
+        }
+
+        &-right {
+            right: 10px;
+        }
+    }
+
+    .card-container {
+        display: flex; /* Align cards horizontally */
+        overflow-x: hidden; /* Hide overflow */
+    }
+
+    .card {
+        background-color: #f5f7f8;
+        flex: 0 0 auto; /* Allow cards to shrink and grow */
+        margin-right: 10px; /* Add some space between cards */
+    }
+}

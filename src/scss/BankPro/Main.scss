@@ -1,0 +1,42 @@
+.Pmain {
+    height: 700px;
+    width: 1300px;
+
+    .ccol{
+        padding-top: 200px;
+        padding-left: 250px;
+
+        .Product {
+        color: darkgoldenrod;
+    }
+
+    .CBorder {
+        height: 350px;
+        border: 2px solid white !important;
+        position: relative;
+        right: -45%;
+        border-radius: 25px;
+
+        .CConnect {
+        width: 500px;
+        border: 2px solid white;
+        border-radius: 25px;
+        padding: 50px 60px 20px 40px;
+        margin-left: 80px;
+        position: relative;
+        right: 9%;
+        top: 7%;
+
+            .CImg {
+                height: 100px;
+                width: 100px;
+                opacity: 1;
+            }
+
+            .CTitle {
+                color: darkturquoise;
+            }
+    }
+    }
+    }
+}

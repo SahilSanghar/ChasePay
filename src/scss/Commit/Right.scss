@@ -1,0 +1,25 @@
+.main {
+    border-left: 2px solid #005EB8;
+    padding-left: 30px;
+
+    .description {
+        margin-top: -30px;
+    }
+
+    .underline-gap {
+        margin-bottom: 5px; /* Adjust as needed */
+    }
+    
+    u {
+        text-decoration-color: #005EB8;
+    }
+
+    u:hover {
+        color: #005EB8;
+        cursor: pointer;
+    }
+    
+    arrow-r:hover {
+        color: #005EB8 !important;
+    }
+}
