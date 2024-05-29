@@ -1,0 +1,9 @@
+.OHead {
+    text-decoration: none; // Remove default underline
+    border-bottom: 5px solid transparent; // Initial transparent underline
+    transition: border-color 0.3s; // Smooth transition for underline color change
+
+    &:hover {
+        border-bottom-color: #0B6EFD !important; // Change underline color on hover
+    }
+}

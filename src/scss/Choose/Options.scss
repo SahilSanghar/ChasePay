@@ -1,3 +1,57 @@
-.options {
-    height: 100px;
+// Carousel.scss
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+
+  .carousel-item-content {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+  }
+
+  .nested-components-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .nested-component {
+      flex: 0 0 auto;
+      margin-right: 10px;
+
+      img {
+        max-width: 100px; // Adjust as needed
+        height: auto;
+      }
+
+      p {
+        margin-top: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .navigation-arrows {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+      font-size: 24px;
+      padding: 5px 10px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      margin: 0 10px;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
 }

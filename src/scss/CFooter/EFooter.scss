@@ -1,0 +1,17 @@
+.EFooter {
+    padding: 30px 50px;
+a {
+    color: black;
+    padding: 2px 0 0 0;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+}
+
+.copyright {
+    margin-left: 120px;
+}

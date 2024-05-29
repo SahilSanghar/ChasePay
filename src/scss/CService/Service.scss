@@ -1,0 +1,32 @@
+.service-container {
+    position: relative;
+    
+    .overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: white; // Adjust color as needed
+    font-size: 24px; // Adjust font size as needed
+    font-weight: bold; // Adjust font weight as needed
+    text-align: left;
+}   
+
+    .Service {
+    height: 90vh;
+    width: 98vw;
+    // margin: 20px 0 0 70px;
+    object-fit: cover;
+    opacity: 1 !important;
+}
+
+    .btn {
+        background-color: #1a7b99;
+        padding: 5px 50px;
+        border: none;
+
+        &:hover {
+            background-color: #31373d;
+        }
+    }
+}

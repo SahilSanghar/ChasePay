@@ -5,12 +5,54 @@
     height: 422px;
     
     .business {
-        height: 600px;
-        width: 500px;
+        height: 780px;
+        width: 700px;
+        object-fit: cover;
         margin-top: 30px;
-        margin-left: 20px;
+        margin-left: 30px;
         opacity: 1;
         z-index: 1;
         overflow-y: visible;
+    }
+
+    .right {
+        margin-left: 50px !important;
+    }
+
+    .description {
+        .heading {
+            height: 30px;
+            width: 300px;
+            text-align: left;
+        }
+
+        .title {
+            height: 50px;
+            width: fit-content;
+            margin-right: 20px;
+            padding-right: 50px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .detail {
+            height: 100px;
+            width: 290px;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .button {
+            margin-right: 200px;
+        }
+
+        .btn-primary {
+            margin-top: auto; // This will push the button to the bottom
+            background-color: #005EB8;
+        }
+
+        .button:hover {
+            background-color: #041E42;
+        }
     }
 }

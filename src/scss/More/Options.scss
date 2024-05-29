@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    .card {
+        border: none !important;
+        margin: 10px;
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+
+            .btn-primary {
+                margin-top: auto; // This will push the button to the bottom
+                background-color: #005EB8;
+            }
+
+            .btn-primary:hover {
+                background-color: #041E42;
+            }
+
+            .one {
+                margin-top: 57px !important;
+            }
+
+            .second {
+                margin-top: 57px !important;
+            } 
+
+            .third {
+                margin-top: 33px !important;
+            }
+
+            .last {
+                margin-top: 41px;
+            }
+        }
+
+    img {
+        height: 200px;
+        width: 250px;
+        opacity: 1;
+        object-fit: cover;
+    }
+}
+}

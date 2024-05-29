@@ -1,0 +1,12 @@
+.review {
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+    margin: 80px;
+    padding-left: 30px;
+    border-bottom-right-radius: 50px;
+
+    &:hover {
+        opacity: 1;
+    }
+}

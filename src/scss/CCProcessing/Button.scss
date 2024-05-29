@@ -1,0 +1,12 @@
+.processing{
+    margin-top: 70px;
+    padding-left: 30px;
+    .button {
+    background-color: #004692 !important;
+    border: none;
+
+    &:hover {
+        background-color: white !important;
+        color: black;
+    }
+}}

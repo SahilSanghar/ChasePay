@@ -1,0 +1,31 @@
+.GOptions {
+    height: 720px;
+    background-color: whitesmoke;
+    padding: 60px 0;
+
+    .GRow {
+    gap: 0px;
+    padding: 0 55px;
+
+    .GCard {
+    border: none;
+    height: 555px;
+
+    .GImg {
+    height: 200px !important;
+    width: 359px;
+    object-fit: cover;
+    margin: 0;
+    opacity: 1 !important;
+    }
+
+    .GSubtitle {
+        color: #936846;
+    }
+
+    .Insight {
+        padding: 0;
+    }
+    }
+}
+}

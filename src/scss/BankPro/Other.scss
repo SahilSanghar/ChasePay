@@ -1,0 +1,87 @@
+.OMain {
+    height: 700px;
+    width: 1400px;
+    padding-top: 150px;
+    padding-right: 120px;
+
+    .card {
+        background-color: transparent;
+        width: 350px;
+        height: 450px;
+        padding: 20px 30px;
+    }
+
+    .cf {
+        border: 2px solid #9de5ec;
+        
+        .bf {
+            color: white;
+            
+            .tf {
+                color: #9de5ec;
+            }
+
+            .link {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .CImg {
+            height: 100px;
+            width: 100px;
+            opacity: 1;
+            align-self: center;
+        }
+    }
+
+    .cs {
+        border: 2px solid #d5b5e7;
+        margin-left: 30px;
+        
+        .bs {
+            color: white;
+            
+            .ts {
+                color: #d5b5e7;
+            }
+
+            .link {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .CImg {
+            height: 100px;
+            width: 100px;
+            opacity: 1;
+            align-self: center;
+        }
+    }
+
+    .ct {
+        border: 2px solid #f9d3b1;       
+        margin-left: 30px;
+        
+        .bt {
+            color: white;
+            
+            .tt {
+                color: #f9d3b1;
+            }
+
+            .link {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .CImg {
+            height: 100px;
+            width: 100px;
+            opacity: 1;
+            align-self: center;
+        }
+    }
+}
