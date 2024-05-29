@@ -1,4 +1,5 @@
 import React from 'react'
+import {useNavigate} from 'react-router-dom';
 import '../../../../scss/Details/features.scss'
 import check from '../../../../assets/Images/check.png'
 import piggy from '../../../../assets/Images/piggy.png'
@@ -13,6 +14,11 @@ import music from '../../../../assets/Images/music.png'
 import shield from '../../../../assets/Images/shield.png'
 
 const Features = () => {
+
+    const navigateCheckAcc = () => {
+        navigate('/personal/checking');
+    };
+
 return (
     <div className='container text-left mt-5'>
         <div className='row'>
@@ -22,7 +28,7 @@ return (
                     Checking Accounts
                 </div>
                 <div className="description">
-                    Choose the checking account that works best for you. See our Chasepay Total Checking® offer for new customers. Make purchases with your debit card, and bank from almost anywhere by phone, tablet or computer and more than 15,000 ATMs and more than 4,700 branches.
+                    Choose the <a href="/personal/checking">checking account</a> that works best for you. See our <a href="/consumer/banking/seo">Chasepay Total Checking®</a> offer for new customers. Make purchases with your debit card, and bank from almost anywhere by phone, tablet or computer and more than 15,000 ATMs and more than 4,700 branches.
                 </div>
             </div>
             <div className="col">
@@ -31,7 +37,7 @@ return (
                     Savings Accounts & CDs
                 </div>
                 <div className="description">
-                    It's never too early to begin saving. Open a savings account or open a Certificate of Deposit (see interest rates) and start saving your money.
+                    It's never too early to begin saving. <a href="/personal/savings">Open a savings account</a> or open a Certificate of Deposit (<a href="/personal/savings/bank-cd">see interest rates</a>) and start saving your money.
                 </div>
             </div>
             <div className="col">
@@ -40,7 +46,7 @@ return (
                     Credit Cards 
                 </div>
                 <div className="description">
-                    Chasepay credit cards can help you buy the things you need. Many of our cards offer rewards that can be redeemed for cash back or travel-related perks. With so many options, it can be easy to find a card that matches your lifestyle. Plus, with Credit Journey you can get a free credit score!
+                    Chasepay <a href="/creditcards.chasepay.com">credit cards</a> can help you buy the things you need. Many of our cards <a href="/creditcards.chasepay.com/rewards-credit-cards">offer rewards</a> that can be redeemed for <a href="/creditcards.chasepay.com/cash-back-credit-cards">cash back</a> or <a href="/creditcards.chasepay.com/travel-credit-cards">travel-related</a> perks. With so many options, it can be easy to find a card that matches your lifestyle. Plus, with Credit Journey you can get a <a href="/personal/credit-cards/free-credit-score">free credit score!</a>
                 </div>
             </div>
             <div className="col">
@@ -49,7 +55,7 @@ return (
                     Mortgages
                 </div>
                 <div className="description">
-                    Apply for a mortgage or refinance your mortgage with Chasepay. View today's mortgage rates or calculate what you can afford with our mortgage calculator. Visit our Education Center for homebuying tips and more.
+                    Apply for a <a href="/personal/mortgage">mortgage</a> or <a href="/personal/mortgage/mortgage-refinance">refinance your mortgage</a> with Chasepay. View today's <a href="/personal/mortgage/mortgage-rates">mortgage rates</a> or calculate what you can afford with our <a href="/personal/mortgage/calculators-resources/mortgage-calculator">mortgage calculator</a>. Visit our <a href="/personal/mortgage/education">Education Center</a> for homebuying tips and more.
                 </div>
             </div>
             <div className="col">
@@ -58,7 +64,7 @@ return (
                     Auto
                 </div>
                 <div className="description">
-                    Chasepay Auto is here to help you get the right car. Apply for auto financing for a new or used car with Chasepay. Use the payment calculator to estimate monthly payments. Check out the Chasepay Auto Education Center to get car guidance from a trusted source.
+                    <a href="/autofinance.chase.com">Chasepay Auto</a> is here to help you get the right car. Apply for <a href="/auto-finance/auto-loans">auto financing</a> for a new or used car with Chasepay. Use the <a href="/autopreferred.chase.com/garage/auto-loan-calculator">payment calculator</a> to estimate monthly payments. Check out the <a href="/personal/auto/education">Chasepay Auto Education Center</a> to get car guidance from a trusted source.
                 </div>
             </div>
             <div className="col">
@@ -67,7 +73,7 @@ return (
                     Chasepay for Business
                 </div>
                 <div className="description">
-                    With Chasepay for Business you'll receive guidance from a team of business professionals who specialize in helping improve cash flow, providing credit solutions, and managing payroll. Choose from business checking, small business loans, business credit cards, merchant services or visit our business resource center.
+                    With Chasepay for Business you'll receive guidance from a team of business professionals who specialize in helping improve cash flow, providing credit solutions, and managing payroll. Choose from <a href="/business/banking/checking">business checking</a>, <a href="/business/banking/loans">small business loans</a>, <a href="/creditcards.chase.com/business-credit-cards">business credit cards</a>, <a href="/business/payments">merchant services</a> or visit our <a href="/business/knowledge-center">business resource center</a>.
                 </div>
                 </div>
             </div>
@@ -79,7 +85,7 @@ return (
                     Investing by Wesley P Brewer
                 </div>
                 <div className="description">
-                    Whether you choose to work with a financial advisor and develop a financial strategy or invest online, Wesley P Brewer offers investment education, expertise and a range of tools to help you reach your goals. Visit a Wesley P Brewer Wealth Management Branch or check out our latest online investing offers, promotions, and coupons. <b>INVESTMENT AND INSURANCE PRODUCTS ARE: NOT FDIC INSURED NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY NOT A DEPOSIT OR OTHER OBLIGATION OF, OR GUARANTEED BY, WESLEY P BREWER CHASEPAY BANK, N.A. OR ANY OF ITS AFFILIATES SUBJECT TO INVESTMENT RISKS, INCLUDING POSSIBLE LOSS OF THE PRINCIPAL AMOUNT INVESTED</b>
+                    Whether you choose to work with a <a href="/personal/investments/advisor-services">financial advisor</a> and develop a financial strategy or <a href="/personal/investments/online-investing">invest online</a>, Wesley P Brewer offers <a href="/personal/investments/learning-and-insights">investment education</a>, expertise and a range of tools to help you reach your goals. Visit a Wesley P Brewer <a href="/WesleyPBrewerwealthmanagement.chase.com/advisor">Wealth Management Branch</a> or check out our latest online investing <a href="/investing/self-directedoffer">offers, promotions, and coupons.</a> <b>INVESTMENT AND INSURANCE PRODUCTS ARE: NOT FDIC INSURED NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY NOT A DEPOSIT OR OTHER OBLIGATION OF, OR GUARANTEED BY, WESLEY P BREWER CHASEPAY BANK, N.A. OR ANY OF ITS AFFILIATES SUBJECT TO INVESTMENT RISKS, INCLUDING POSSIBLE LOSS OF THE PRINCIPAL AMOUNT INVESTED</b>
                 </div>
             </div>
             <div className="col">
@@ -88,7 +94,7 @@ return (
                     Chasepay Private Client
                 </div>
                 <div className="description">
-                    Get more from a personalized relationship offering no everyday banking fees, priority service from a dedicated team and special perks and benefits. Connect with a Chasepay Private Client Banker at your nearest Chasepay branch to learn about eligibility requirements and all available benefits. <b>INVESTMENT AND INSURANCE PRODUCTS ARE: NOT A DEPOSIT NOT FDIC INSURED NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY NO BANK GUARANTEE MAY LOSE VALUE</b>
+                    Get more from a personalized relationship offering <a href="/personal/checking/private-client#personalized-financial-relationship">no everyday banking fees</a>, priority service from a <a href="/personal/checking/private-client/team">dedicated team</a> and <a href="/personal/checking/private-client/perks">special perks and benefits</a>. Connect with a Chasepay Private Client Banker at your nearest <a href="/investing/self-directedoffer">Chasepay branch</a> to learn about eligibility requirements and all available benefits. <b>INVESTMENT AND INSURANCE PRODUCTS ARE: NOT A DEPOSIT NOT FDIC INSURED NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY NO BANK GUARANTEE MAY LOSE VALUE</b>
                 </div>
             </div>
             <div className="col">

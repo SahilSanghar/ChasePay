@@ -7,7 +7,7 @@ return (
                 Chasepay <br />
                 Travel <br />
             </h5>
-        <div className="card-body">
+        <div className="card-body border border-dark-subtle">
             <h5 className="card-title">
                 Discover the newly <br />
                 reimagined Chasepay Travel

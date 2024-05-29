@@ -1,5 +1,5 @@
 import React from 'react'
-// import beach from '../../../assets/Images/beach.png'
+// import beach from '../../../../assets/Images/beach.png'
 
 const Image = () => {
 return (
