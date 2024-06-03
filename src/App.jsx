@@ -4,38 +4,52 @@ import Home from './View/Personal/Home.jsx'
 import Business from './View/Business/Business.jsx';
 import Commercial from './View/Commercial/Commercial';
 import Global from './View/Global/Global';
-import CheckingAcc from './Interactor/CheckingAcc/CheckingAcc';
-import ChaseTotCheck from './Interactor/CheckingAcc/ChaseTotCheck';
-import SavingAcc from './Interactor/SavingsAcc/SavingAcc';
-import InterestRate from './Interactor/SavingsAcc/InterestRate';
-import CreditCards from './Interactor/CreditCards/CreditCards';
-import OfferRewards from './Interactor/CreditCards/OfferRewards';
-import Cashback from './Interactor/CreditCards/Cashback';
-import Travel from './Interactor/CreditCards/Travel';
-import FreeCreditScore from './Interactor/CreditCards/FreeCreditScore';
-import Mortgages from './Interactor/Mortgages/Mortgages'
-import RefMort from './Interactor/Mortgages/RefMort';
-import MortRates from './Interactor/Mortgages/MortRates';
-import MortCalc from './Interactor/Mortgages/MortCalc';
-import EduCen from './Interactor/Mortgages/EduCen';
-import ChAuto from './Interactor/Auto/ChAuto';
-import AutoFin from './Interactor/Auto/AutoFin';
-import PayCal from './Interactor/Auto/PayCal';
-import AutoEdu from './Interactor/Auto/AutoEdu';
-import Checking from './Interactor/Business/Checking'
-import SmallLoans from './Interactor/Business/SmallLoans'
-import BCCards from './Interactor/Business/BCCards'
-import MerSer from './Interactor/Business/MerSer'
-import ResCent from './Interactor/Business/ResCent'
-import FinAdv from './Interactor/Investing/FinAdv'
-import InvOnl from './Interactor/Investing/InvOnl'
-import InvEdu from './Interactor/Investing/InvEdu'
-import WeaManBran from './Interactor/Investing/WeaManBran'
-import OffProCou from './Interactor/Investing/OffProCou'
-import NoEveryday from './Interactor/PrivClient/NoEveryday'
-import DediTeam from './Interactor/PrivClient/DediTeam'
-import SpPerBen from './Interactor/PrivClient/SpPerBen'
-import ChBranch from './Interactor/PrivClient/ChBranch'
+import CheckingAcc from './Interactor/Description/CheckingAcc/CheckingAcc';
+import ChaseTotCheck from './Interactor/Description/CheckingAcc/ChaseTotCheck';
+import SavingAcc from './Interactor/Description/SavingsAcc/SavingAcc';
+import InterestRate from './Interactor/Description/SavingsAcc/InterestRate';
+import CreditCards from './Interactor/Description/CreditCards/CreditCards';
+import OfferRewards from './Interactor/Description/CreditCards/OfferRewards';
+import Cashback from './Interactor/Description/CreditCards/Cashback';
+import Travel from './Interactor/Description/CreditCards/Travel';
+import FreeCreditScore from './Interactor/Description/CreditCards/FreeCreditScore';
+import Mortgages from './Interactor/Description/Mortgages/Mortgages'
+import RefMort from './Interactor/Description/Mortgages/RefMort';
+import MortRates from './Interactor/Description/Mortgages/MortRates';
+import MortCalc from './Interactor/Description/Mortgages/MortCalc';
+import EduCen from './Interactor/Description/Mortgages/EduCen';
+import ChAuto from './Interactor/Description/Auto/ChAuto';
+import AutoFin from './Interactor/Description/Auto/AutoFin';
+import PayCal from './Interactor/Description/Auto/PayCal';
+import AutoEdu from './Interactor/Description/Auto/AutoEdu';
+import Checking from './Interactor/Description/Business/Checking'
+import SmallLoans from './Interactor/Description/Business/SmallLoans'
+import BCCards from './Interactor/Description/Business/BCCards'
+import MerSer from './Interactor/Description/Business/MerSer'
+import ResCent from './Interactor/Description/Business/ResCent'
+import FinAdv from './Interactor/Description/Investing/FinAdv'
+import InvOnl from './Interactor/Description/Investing/InvOnl'
+import InvEdu from './Interactor/Description/Investing/InvEdu'
+import WeaManBran from './Interactor/Description/Investing/WeaManBran'
+import OffProCou from './Interactor/Description/Investing/OffProCou'
+import NoEveryday from './Interactor/Description/PrivClient/NoEveryday'
+import DediTeam from './Interactor/Description/PrivClient/DediTeam'
+import SpPerBen from './Interactor/Description/PrivClient/SpPerBen'
+import ChBranch from './Interactor/Description/PrivClient/ChBranch'
+import BankEduCen from './Interactor/Description/AboutChasepay/BankEduCen'
+import CustSer from './Interactor/Description/AboutChasepay/CustSer'
+import CompFeed from './Interactor/Description/AboutChasepay/CompFeed'
+import Act from './Interactor/Description/AboutChasepay/Act'
+import Experience from './Interactor/Description/Sport&Entertainment/Experience'
+import usOpen from './Interactor/Description/Sport&Entertainment/usOpen'
+import MSG from './Interactor/Description/Sport&Entertainment/MSG'
+import Center from './Interactor/Description/Sport&Entertainment/Center'
+import SecFeat from './Interactor/Description/SecurityCenter/SecFeat'
+import Protect from './Interactor/Description/SecurityCenter/Protect'
+import PYou from './Interactor/Description/SecurityCenter/PYou'
+import FinAbuse from './Interactor/Description/SecurityCenter/FinAbuse'
+import Scammers from './Interactor/Description/SecurityCenter/Scammers'
+import Report from './Interactor/Description/SecurityCenter/Report'
 
 function App() {
 
@@ -96,6 +110,25 @@ function App() {
       <Route path="/personal/checking/private-client/perks" element={<SpPerBen />} />
       <Route path="/investing/self-directedoffer" element={<ChBranch />} />
 
+      {/* About Chasepay */}
+      <Route path="/personal/banking/education" element={<BankEduCen />} />
+      <Route path="/digital/customer-service" element={<CustSer />} />
+      <Route path="/digital/resources/complaints-feedback" element={<CompFeed />} />
+      <Route path="/digital/resources/about-chase/cra-public-file" element={<Act />} />
+
+      {/* Sports & Entertainment */}
+      <Route path="/personal/events/experiences" element={<Experience />} />
+      <Route path="/personal/events/us-open" element={<usOpen />} />
+      <Route path="/www.msg.com/madison-square-garden" element={<MSG />} />
+      <Route path="/personal/events/chase-center" element={<Center />} />
+
+      {/* Chase Security Center */}
+      <Route path="/digital/resources/privacy-security" element={<SecFeat />} />
+      <Route path="/digital/resources/privacy-security/security/how-you-can-protect" element={<Protect />} />
+      <Route path="/digital/resources/privacy-security/security/how-we-protect-you" element={<PYou />} />
+      <Route path="/digital/resources/privacy-security/financial-abuse" element={<FinAbuse />} />
+      <Route path="/digital/resources/privacy-security/security/how-to-spot-scams" element={<Scammers />} />
+      <Route path="/digital/resources/privacy-security/security/report-fraud" element={<Report />} />
       {/* <Route path="/settings" element={<Settings />} /> */}
       {/* <Route path="*" element={<NotFound />} /> */}
     </Routes>
