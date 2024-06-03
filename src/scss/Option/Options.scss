@@ -1,9 +1,91 @@
-.OHead {
-    text-decoration: none; // Remove default underline
-    border-bottom: 5px solid transparent; // Initial transparent underline
-    transition: border-color 0.3s; // Smooth transition for underline color change
+.dropdown {
+  position: relative;
 
-    &:hover {
-        border-bottom-color: #0B6EFD !important; // Change underline color on hover
+  .dropdown-toggle {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+
+    &.d-flex {
+      display: flex;
+      flex-direction: column;
     }
+
+    &.list-unstyled {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      position: relative;
+
+      .OptionBtn {
+        background: transparent !important;
+        border: none !important;
+        padding: 12px 16px;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #f1f1f1;
+        }
+      }
+
+      .dropdown-section {
+        display: none;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1000; // Ensure the dropdown is on top of other elements
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 100%;
+        min-width: 150px;
+
+        li {
+          padding: 10px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #f1f1f1;
+          }
+        }
+      }
+
+      &.is-open .dropdown-section {
+        display: block;
+      }
+
+      &.me-5 {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.OHead {
+  text-decoration: none; // Remove default underline
+  border-bottom: 5px solid transparent; // Initial transparent underline
+  transition: border-color 0.3s; // Smooth transition for underline color change
+  cursor: pointer;
+
+  &:hover {
+    border-bottom-color: #0B6EFD !important; // Change underline color on hover
+  }
 }

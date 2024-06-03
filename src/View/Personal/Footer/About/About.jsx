@@ -1,42 +1,76 @@
 import React from 'react'
+import '../../../../scss/Footer/About.scss'
 
 const About = () => {
 return (
-    <div className='ps-5 ms-5'>
-        <span className=''>
+    <div className=''>
+        <a href="" className='ALink'>
+        <span className='AStart'>
             About Chase
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Wesley P Brewer
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Wesley P Brewer Chase & Co
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Media Center
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Careers
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Site map
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Privacy & Security
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Terms of use
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Accessibilty
         </span>
-        <span className='ps-3'>
+        </a>
+        
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             AdChoices
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <a href="" className='ALink'>
+        <span className='ms-4'>
             Give feedback
         </span>
-        <span className='ps-3'>
+        </a>
+
+        <span className='ATxt ms-4'>
             Member FDIC
         </span>
     </div>

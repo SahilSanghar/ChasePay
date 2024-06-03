@@ -1,14 +1,15 @@
 import React from 'react'
+import '../../../../scss/Details/Others.scss'
 
 const Other = () => {
 return (
-    <ul className='mt-5 pb-4 ms-5 ps-5 d-flex list-unstyled'>
-        <b className='ms-5 ps-5'>Other Productes & Services:</b>
-        <li className='ps-4'>Deposit Account Agreements</li>
-        <li className='ps-4'>Mobile Banking</li>
-        <li className='ps-4'>Online Banking</li>
-        <li className='ps-4'>Student Center</li>
-        <li className='ps-4'>Zelle&reg;</li>
+    <ul className='other d-flex list-unstyled'>
+        <h6><b className='ms-5 ps-5 fs-7'>Other Productes & Services:</b></h6>
+        <li className='ps-4 fs-8'><a href="">Deposit Account Agreements</a></li>
+        <li className='ps-4 fs-8'><a href="">Mobile Banking</a></li>
+        <li className='ps-4 fs-8'><a href="">Online Banking</a></li>
+        <li className='ps-4 fs-8'><a href="">Student Center</a></li>
+        <li className='ps-4 fs-8'><a href="">Zelle&reg;</a></li>
     </ul>
 )
 }

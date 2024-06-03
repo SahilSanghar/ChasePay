@@ -1,15 +1,19 @@
 .title{
-    height: 60px;
-    padding-top: 2px;
+    margin: 20px 0 0;
+    padding: 0 0 7px;
     font-weight: 500;
     font-size: larger;
+    font-size: 14px;
 }
 
 .description {
-    padding-top: 10px;
+    margin: 0 0 7.5px;
+    font-size: 12px;
 }
 
 .features {
-    height: 50px !important;
-    width: 50px !important;
+    height: 35px !important;
+    width: 35px !important;
+    opacity: 0.4 !important;
+    margin: 0 0 13px;
 }

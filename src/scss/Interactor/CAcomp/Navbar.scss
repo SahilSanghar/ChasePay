@@ -1,0 +1,79 @@
+.CANavbar {
+    height: 70px;
+    background-color: #0846A8;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    .CAHambur {
+        height: 40px;
+        width: 34px;
+        opacity: 1;
+        z-index: 1100;
+        position: relative;
+    }
+
+    .CAlogo {
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+
+    .CABtn {
+        background-color: #0B6EFD;
+        height: 36px;
+        width: 90px;
+        font-size: 20px;
+        padding: 0px 10px;
+        margin: 0 0 0px 20px;
+        margin-top: -6px;
+        border: 1px solid white;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0px;  // Adjust this to match the navbar height
+        left: -360px; // Hidden off-screen initially
+        width: 360px;
+        height: 100vh;
+        background-color: #3E3835;
+        color: #EDEDED;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        transition: left 0.3s ease-in-out;
+        z-index: 1000;
+        overflow: scroll;
+
+        .Nsidebar {
+            height: 40px;
+            background-color: #333333 !important;
+            font-size: 12px;
+        }
+
+        .Nsidebar1 {
+            height: 400px;
+            background-color: #333333 !important;
+            font-size: 12px;
+        }
+
+        li {
+            padding: 10px;
+            border-bottom: 1px solid black;
+            color: #EDEDED;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            font-size: 15px;
+
+            &:hover {
+                background-color: #6c757d;
+            }
+        }
+
+        &.open {
+            left: 0;
+        }
+    }
+}

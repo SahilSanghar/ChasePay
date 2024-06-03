@@ -6,7 +6,7 @@ import LoginForm from './Login/Login.jsx'
 
 const Banner = () => {
 return (
-    <div className='banner d-flex p-4'>
+    <div className='banner d-flex'>
         <Offer />
         <Description />
         <LoginForm />

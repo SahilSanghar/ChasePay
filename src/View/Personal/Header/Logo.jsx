@@ -5,7 +5,7 @@ import '../../../scss/Header/Logo.scss'
 const Logo = () => {
 return (
     <div className='mx-4 px-2'>
-        <img src={logo} alt='Logo'className='logo'/>
+        <a href="/"><img src={logo} alt='Logo' className='logo' /></a>
     </div>
 )
 }

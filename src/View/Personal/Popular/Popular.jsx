@@ -16,12 +16,12 @@ return (
             <div className="pt-2">
                 <Button />
             </div>
-            
         </div>
         <div className="col text-center pt-4 pe-0 ms-5">
             <img src={enjoy} alt="Discover" className='Dis' />
         </div>
     </div>
+    <br />
     <hr className='hr'/>
 </div>
     

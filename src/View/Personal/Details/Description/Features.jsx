@@ -103,25 +103,25 @@ return (
                     About Chasepay
                 </div>
                 <div className="description">
-                    Chasepay serves millions of people with a broad range of products. Chasepay online lets you manage your Chasepay accounts, view statements, monitor activity, pay bills or transfer funds securely from one central place. To learn more, visit the Banking Education Center. For questions or concerns, please contact Chasepay customer service or let us know about Chasepay complaints and feedback. View the Chasepay Community Reinvestment Act Public File for the bank's latest CRA rating and other CRA-related information.
+                    Chasepay serves millions of people with a broad range of products. <a href="/">Chasepay online</a> lets you manage your Chasepay accounts, view statements, monitor activity, pay bills or transfer funds securely from one central place. To learn more, visit the <a href="/personal/banking/education">Banking Education Center.</a> For questions or concerns, please contact <a href="/digital/customer-service">Chasepay customer service</a> or let us know about <a href="/digital/resources/complaints-feedback">Chasepay complaints and feedback.</a> View the <a href="/digital/resources/about-chase/cra-public-file">Chasepay Community Reinvestment Act Public File</a> for the bank's latest CRA rating and other CRA-related information.
                 </div>
             </div>
             <div className="col">
                 <img src={music} alt='music' className='features'/>
                 <div className="title">
-                Sports & Entertainment
+                    Sports & Entertainment
                 </div>
                 <div className="description">
-                    Chasepay gives you access to unique sports, entertainment and culinary events through Chasepay Experiences and our exclusive partnerships such as the US Open, Madison Square Garden(Opens Overlay) and Chasepay Center.
+                    Chasepay gives you access to unique sports, entertainment and culinary events through <a href="/personal/events/experiences">Chasepay Experiences</a> and our exclusive partnerships such as the <a href="/personal/events/us-open">US Open</a>, <a href="/www.msg.com/madison-square-garden">Madison Square Garden</a> and <a href="/personal/events/chase-center">Chasepay Center.</a>
                 </div>
                 </div>
             <div className="col">
                 <img src={shield} alt='shield' className='features'/>
                 <div className="title">
-                Chasepay Security Center
+                    Chasepay Security Center
                 </div>
                 <div className="description">
-                Our suite of security features can help you protect your info, money and give you peace of mind. See how we're dedicated to helping protect you, your accounts and your loved ones from financial abuse. Also, learn about the common tricks scammers are using to help you stay one step ahead of them.  If you see unauthorized charges or believe your account was compromised contact us right away to report fraud.
+                    Our <a href="">suite of security features</a> can <a href="">help you protect</a> your info, money and give you peace of mind. See how we're dedicated to helping <a href="">protect you</a>, your accounts and your loved ones from <a href="">financial abuse</a>. Also, <a href="">learn about the common tricks scammers are using</a> to help you stay one step ahead of them.  If you see unauthorized charges or believe your account was compromised contact us right away to <a href="">report fraud</a>.
                 </div>        
             </div>
             <div className="col">

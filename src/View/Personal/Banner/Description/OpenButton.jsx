@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../../../scss/Banner/OpenBtn.scss'
 
 const OpenButton = () => {
 return (
-    <div className='pt-1'>
-        <button type="button" className="btn btn-success">Open an account</button>
+    <div className=''>
+        <button type="button" className="btn Obtn btn-success">Open an account</button>
     </div>
 )
 }
